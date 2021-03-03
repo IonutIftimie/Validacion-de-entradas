@@ -1,4 +1,7 @@
 <?php
+ini_set( 'session.cookie_httponly', 1 );
+ini_set( 'session.cookie_secure', 1);
+
 session_start();
 
 //En una aplicación real, los usuarios estarían almaenados en la base de datos
